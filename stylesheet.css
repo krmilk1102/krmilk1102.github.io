@@ -62,7 +62,7 @@ a{
  hiroimage
 ---------------------*/
 .hiro_image{
-	background-image: url(../images/hiro_img2.jpg);
+	background-image: url(hiro_img2.jpg);
 	position:relative;
 	background-size:cover;
 	background-position:center;
@@ -141,6 +141,7 @@ a{
 }
 .foods_list{
 	display:flex;
+	width:100%;
 }
 .foods_item{
 	padding:25px 58px 85px;
