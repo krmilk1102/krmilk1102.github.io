@@ -1,169 +1,149 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>Gyoza-Boy</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"> <!--スマートフォンに対応させるため-->
-<meta name="Description" content="「3度の飯も、酒も好き」をキャッチコピーにOL生活を営む棚ログです。">　<!--検索した時の説明-->
-<link rel="apple-touch-icon" href="＃">　<!--検索した時のアイコン-->
-<link rel="shortcut icon" href="＃">　<!--ブックマーク時のアイコン-->
-<meta name="format-detection"content="telephone=no">　<!--電話番号防止-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700" rel="stylesheet">
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="stylesheet.css">
+	<meta charset="UTF-8">
+	<title>Gyoza-Boy</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<!--スマートフォンに対応させるため-->
+	<meta name="Description" content="「3度の飯も、酒も好き」をキャッチコピーにOL生活を営む棚ログです。">　
+	<!--検索した時の説明-->
+	<link rel="apple-touch-icon" href="＃">
+	<!--検索した時のアイコン-->
+	<link rel="shortcut icon" href="＃">
+	<!--ブックマーク時のアイコン-->
+	<meta name="format-detection" content="telephone=no">　
+	<!--電話番号防止-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset-2.css">
+	<link rel="stylesheet" href="css/gyoza-boy.css">
 </head>
 <body>
-<!-- header -->
-	<header class="header">
-			<h1><a href="./"><img src="header_logo_test_02.png" width="20%" alt="水餃子少年"></a></h1>
+	<header>
+		<div>
+			<div class="header-logo">
+				<h1><img src="/images/header_logo.png" alt="水餃子少年"></h1>
+			</div>
+			<div class="header-img">
+				<img src="" alt="水餃子の写真">
+				<h2 class="header-ttl"><span>『</span>餃子が、主食。』</h2>
+			</div>
+			<div>
+				<ul class="nav-list">
+					<a href="#about">
+						<li class="nav-item">About</li>
+					</a>
+					<a href="#foods">
+						<li class="nav-item">Foods</li>
+					</a>
+					<a href="#works">
+						<li class="nav-item">Works</li>
+					</a>
+					<a href="#content">
+						<li class="nav-item">Contact</li>
+					</a>
+					<a href="#profile">
+						<li class="nav-item">Profile</li>
+					</a>
+				</ul>
+			</div>
+		</div>
 	</header>
-<!-- /header -->
-		
-<!-- heroimage -->
-	<div class="hiro_image">
-		<h2 class="hiro_title">『餃子が<span class="kigo">、</span>主食。<span class="kigou">』</span></h2>
-	</div>
-<!-- /heroimage -->
-
-<!-- navigation -->
-		<div class="navigation">
-			<ul class="nav_list">
-				<li class="nav_item"><a href="#about">About</a></li>
-				<li class="nav_item"><a href="#foods">Foods</a></li>
-				<li class="nav_item"><a href="#works">Works</a></li>
-				<li class="nav_item"><a href="#contact">Contact</a></li>
-				<li class="nav_item"><a href="#profile">Profile</a></li>
+	<main>
+		<section id="about" class="tac">
+			<h3 class="sec-ttl">About</h3>
+			<div>
+				<p class="content-mb30">2019年は水餃子を極めようと思い、改名。</p>
+				<p class="content-mb30">
+					365日外食をモットーに暮らしてきた4年間<br>
+					カフェから始まり、餃子・カレー・居酒屋など<br>
+					オールマイティーに1日2件以上をハシゴするような日々。<br>
+					現在は「3度の飯も、酒も好き」をキャッチコピーにOL生活を営む。
+				</p>
+				<p>棚ログ</p>
+			</div>
+		</section>
+		<section id="foods" class="tac">
+			<h3 class="sec-ttl">Foods</h3>
+			<div>
+				<ul class="foods-list">
+					<a href="https://www.instagram.com/gyoza___gyoza___gyoza" target="_blank">
+						<li class="foods-item gyoza">
+							<p class="foods-ttl">餃子倶楽部</p>
+							<img src="images/gyoza.JPG" alt="餃子の写真">
+						</li>
+					</a>
+					<a href="https://www.instagram.com/curry___curry___curry" target="_blank">
+						<li class="foods-item curry">
+							<p class="foods-ttl">カレー倶楽部</p>
+							<img src="images/curry.JPG" alt="カレーの写真">
+						</li>
+					</a>
+					<a href="https://www.instagram.com/osake___osake___osake" target="_blank">
+						<li class="foods-item alcohol">
+							<p class="foods-ttl">飲酒倶楽部</p>
+							<img src="images/alcohol.JPG" alt="お酒の写真">
+						</li>
+					</a>
+				</ul>
+			</div>
+		</section>
+		<section id="works" class="tac">
+			<h3 class="sec-ttl">Works</h3>
+			<div>
+				<dl class="works-list">
+					<dt class="works-year">2015年－2016年</dt>
+					<dd class="works-item"><a href=""><img src="/images/icon_link.png" alt="リンクボタン"></a>カフェ東京</dd>
+					<dt class="works-year">2016年－2017年</dt>
+					<dd class="works-item"><a href=""><img src="/images/icon_link.png" alt="リンクボタン"></a>holiday</dd>
+					<dt class="works-year">2016年</dt>
+					<dd class="works-item"><a href=""><img src="/images/icon_link.png" alt="リンクボタン"></a>boy</dd>
+					<dt class="works-year">2017年－2018年</dt>
+					<dd class="works-item"><a href=""><img src="/images/icon_link.png"
+								alt="リンクボタン"></a>Let's<span>enjoytokyo</span></dd>
+					<dt class="works-year">2018年</dt>
+					<dd class="works-item"><a href=""><img src="/images/icon_link.png" alt="リンクボタン"></a>チトセ</dd>
+				</dl>
+			</div>
+		</section>
+		<section id="contact" class="tac">
+			<h3 class="sec-ttl">Contact</h3>
+			<div>
+				<p>お問い合わせはこちらへ</p>
+				<p>
+					ご意見・ご要望、その他にも仕事のご依頼など<br>
+					お気軽にお問い合わせくださいませ。
+				</p>
+				<a href="mailto:wanwantantangirl@gmail.com">wanwantantangirl@gmail.com</a>
+			</div>
+		</section>
+		<section id="profile" class="tac">
+			<h3 class="sec-ttl">Profile</h3>
+			<div>
+				<p>棚橋絵美里、1995年生まれ。</p>
+				<p class="profile-middle">
+					実はフランス生まれでミドルネーム「クリスティーナ」という名を持つ。<br>
+					とりあえずその時食べていたパンケーキをtwitterにレビュー。
+				</p>
+				<p class="profile-last">"<span>そ</span>こから「棚ログ」という彼女の人生が始まる。"</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="pasetop-btn"><a href="#"><img src="images/icon_pt_btn.png" alt="ページトップボタン"></a></div>
+		<div>
+			<ul class="footer-icon">
+				<li>
+					<a href="https://www.instagram.com/log___log___log" target="_blank"><img
+							src="images/icon_instagram.png" alt="インスタグラムのアイコン"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/onakahettanalog" target="_blank"><img src="images/icon_twitter.png"
+							alt="ツイッターのアイコン"></a>
+				</li>
 			</ul>
 		</div>
-<!-- /navigation -->
-	
-<!-- main -->
-	
-<main>
-	<section>
-	<!-- ABOUT -->
-		<section class="section text-center" id="about">
-			<h3 class="section_header">About</h3>
-
-			<p class="about_title">2019年は水餃子を極めようと思い、改名。</p>
-				
-			<p class="about_body">365日外食をモットーに暮らしてきた4年間。<br>
-			カフェから始まり、餃子、カレー、居酒屋など<br>
-			オールマイティーに1日2軒以上ハシゴするような日々。<br>
-			現在は、「3度の飯も、酒も好き」をキャッチコピーにOL生活を営む。</p>
-
-			<p>棚ログ</p>
-		</section>
-	<!-- /ABOUT -->
-
-	<!-- FOODS -->
-		<section class="section" id="foods">
-			<h3 class="section_header text-center">Foods</h3>
-			<ul class="foods_list">
-				<a href="https://www.instagram.com/gyoza___gyoza___gyoza" target="_blank">
-						<li class="foods_item gyoza">
-							<h4 class="foods_title text-center">餃子倶楽部</h4>
-							<img src="gyoza2.JPG" alt="餃子の写真">
-						</li>
-				</a>	
-				<a href="https://www.instagram.com/curry___curry___curry" target="_blank">
-						<li class="foods_item curry">
-							<h4 class="foods_title text-center">カレー倶楽部</h4>
-							<img src="curry2.JPG" alt="カレーの写真">
-						</li>
-				</a>
-				<a href="https://www.instagram.com/osake___osake___osake" target="_blank">
-						<li class="foods_item alc">
-							<h4 class="foods_title text-center">飲酒倶楽部</h4>
-							<img src="alc3.JPG" alt="居酒屋の写真">
-						</li>
-				</a>
-			</ul>
-		</section>
-	<!-- /FOODS -->
-
-	<!-- WORKS -->
-		<section class="section text-center" id="works">
-			<h3 class="section_header">Works</h3>
-				<div class="works_list">
-					<div class="works_items">
-						<p class="works_item">2015年 - 2016年</p>
-						<p class="works_item">2016年 - 2017年</p>
-						<p class="works_item">2016年</p>
-						<p class="works_item">2017年 - 2018年</p>
-						<p class="works_item">2018年</p>
-					</div>	
-			
-					<div class="works_items">
-						<p class="works_item do">カフェ東京</p>
-						<p class="works_item do">holiday</p>
-						<p class="works_item do">boy</p>
-						<p class="works_item do">Let’<span class="works_item_enjoy">enjoytokyo</sspan></p>
-						<p class="works_item do">チトセ</p>
-					</div>	
-				</div>
-		</section>
-	<!-- /WORKS -->
-
-	<!-- CONTACT -->
-		<section class="section text-center" id="contact"> <!-- formタグで囲んだ方がいいのか -->
-			<h3 class="section_header contact">Contact</h3>
-
-			<div class="contact_form">
-				<h5 class="contact_title">お問い合わせはこちらへ</h5>
-
-				<p class="contact_text">ご意見・ご要望、その他にも仕事のご依頼など<br>
-				お気軽にお問い合わせくださいませ。</p>
-				<span>wanwantantangirl@gmail.com</span>
-			</div>
-		</section>
-	<!-- /CONTACT -->
-
-	<!-- PROFILE -->
-		<section class="section profile text-center" id="profile">
-			<h3 class="section_header">Profile</h3>
-			
-			<div class="profile_form">
-				<p class="profile_text">棚橋絵美里、1995年生まれ。<br>
-				実はフランス生まれでミドルネーム「クリスティーナ」を持つ。</p>
-
-				<p class="profile_text">大学生活充実したことがない日々が続くなか<br>
-		 		「大学生の間に何か、これはやりきった物がほしい。」となった時、<br>
-				とりあえずその時食べていたパンケーキをtwitterにレビュー。</p>
-
-				<p class="profile_text">そこから「棚ログ」という彼女の人生が始まり。</p>
-			</div>
-	<!-- PageTop btn -->
-			<p class="pagetop_btn"><a href="#"><img src="icon_pt_btn_03.png" alt="pageTopボタン"></a></p>
-	<!-- /PageTop btn -->
-		</section>
-		
-	<!-- /PROFILE -->
-	</section>
-</main>	
-<!-- /main -->
-
-<!-- footer -->
-	<section>
-		<footer class="footer">
-	<!-- navigation -->
-			<ul class="footer_nav_list">
-				<li class="footer_nav_icon">
-					<a href="https://www.instagram.com/log___log___log" target="_blank">
-						<img src="icon_instagram_03.png" alt="Instagramのアイコン">
-					</a>
-				</li>
-				<li class="footer_nav_icon">
-					<a href="https://twitter.com/onakahettanalog" target="_blank">
-						<img src="icon_twitter_03.png" alt="Twitterのアイコン">
-					</a>
-				</li>
-			</ul>
-	<!-- /navigation -->
-		</footer>
-	</section>
-<!-- /footer -->
-
+	</footer>
 </body>
+
 </html>
