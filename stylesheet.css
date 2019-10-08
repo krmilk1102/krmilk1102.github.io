@@ -135,7 +135,7 @@ a{
 #foods{
 	width: 100%;
 }
-.foods-list{
+.foods_list{
 	display: flex;
 	justify-content: center;
 }
