@@ -132,15 +132,20 @@ a{
 /*---------------------
  foods
 ---------------------*/
+#foods{
+	width: 100%;
+}
+.foods-list{
+	display: flex;
+	justify-content: center;
+}
+}
 .foods_title{
 	padding:30px 10px 45px 18px;
 	font-size:2.8rem;
 	color:#fff;
 	font-weight:500;
 	letter-spacing:15px;
-}
-.foods_list{
-	display:flex;
 }
 .foods_item{
 	padding:25px 58px 85px;
