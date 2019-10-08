@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	font-size: 62.5%;/*16px × 62.5% = 10px */
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-feature-settings: "palt";
+	font-size:2.4rem;
+	letter-spacing: 0.05em;
+	color:#333333;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration:none;
+}
+
+/*---------------------
+ common
+---------------------*/
+.text-center{
+	text-align:center;
+}
+
+/*---------------------
+ section 
+---------------------*/
+.section_header{
+	margin:80px 0 64px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size:4.8rem;
+	text-transform:uppercase;
+	clear:both;
+}
+.section_header.contact{
+	padding-top:64px;
+}
+.section_header:last-of-type{
+	padding-top:55px;
+}
+.section_body{
+	padding-bottom:30px;
+}
+
+/*---------------------
+ header
+---------------------*/
+.header{
+	background-color:#a88462;
+	background-size:150px;
+	margin-top:-40px;
+}
+
+/*---------------------
+ hiroimage
+---------------------*/
+.hiro_image{
+	background-image: url(../images/hiro_img2.jpg);
+	position:relative;
+	background-size:cover;
+	background-position:center;
+	height:700px;
+}
+.hiro_title{
+	display:flex;
+	position:absolute;
+	-webkit-writing-mode:vertical-rl;
+	-ms-writing-mode:tb-rl;
+	writing-mode:tb-rl;
+	font-size:40px;
+	top:145px;
+	right:100px;
+	letter-spacing: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+.kigo{
+	display:block;
+	margin-bottom:-22px;
+}
+.kigou{
+	display: inline-block;
+	margin-top:-29px;
+}
+/*---------------------
+ navigation
+---------------------*/
+.navigation{
+	background-color: #a88462;
+	position:relative;
+	height:64px;
+}
+.nav_list{
+	width:100%;
+	justify-content:flex-end;
+	position:absolute;
+	display:flex;
+}
+.nav_item{
+	align-items:center;
+	text-transform:uppercase;
+    justify-content:space-between;
+    padding:20px;
+}
+.nav_item> a{
+	color:#fff;
+}
+.nav_item:last-of-type{
+	padding-right:40px;
+}
+
+/*---------------------
+ about
+---------------------*/
+.about_title{
+	padding-bottom:30px;
+	letter-spacing:5px;
+}
+.about_body{
+	margin:0 auto;
+	width:950px;
+	padding-bottom:100px;
+	letter-spacing:5px;
+}
+
+/*---------------------
+ foods
+---------------------*/
+.foods_title{
+	padding:30px 10px 45px 18px;
+	font-size:2.8rem;
+	color:#fff;
+	font-weight:500;
+	letter-spacing:15px;
+}
+.foods_list{
+	display:flex;
+}
+.foods_item{
+	padding:25px 58px 85px;
+}
+.foods_item.gyoza{
+	background-color:#9d2933;
+}
+.foods_item.curry{
+	background-color:#ffa400;
+}
+.foods_item.alc{
+	background-color:#177cb0;
+}
+
+/*---------------------
+ works
+---------------------*/
+.works_list{
+	width:950px;
+	margin:0 auto;
+	display:flex;
+}
+.works_item{
+	display:flex;
+	justify-content:center;
+	display: inline-block;
+    vertical-align: top;
+	padding:10px 50px 10px 131px;
+}
+.works_items{
+	text-align:left;
+}
+.works_item.do{
+	padding-bottom:16px;
+}
+.works_item_enjoy{
+	text-transform:uppercase;
+}
+/*---------------------
+ contact
+---------------------*/
+.contact_title{
+	padding-bottom:64px;
+}
+.contact_form{
+	margin:0 auto;
+	width:950px;
+	letter-spacing:5px;
+}
+.contact_text{
+	padding-bottom:80px;
+}
+
+/*---------------------
+ profile
+---------------------*/
+.section.profile{
+	background-color:#f5f5f5;
+}
+.profile_form{
+	margin:0 auto;
+	width:950px;
+}
+.profile_text{
+	padding-bottom:60px;
+}
+.profile_text:last-of-type{
+	padding-top:30px;
+}
+
+/*---------------------
+ pagetop
+---------------------*/
+.pagetop_btn{
+	display:block;
+	position:absolute;
+	right:0px;
+	
+}
+.pagetop_btn>a{
+	position:relative;
+	display:block;
+	background-color:#DCDCDC;
+	padding:10px 10px 15px;
+	margin-top:-54px;
+}
+/*---------------------
+ footer
+---------------------*/
+.footer_nav_list{
+	height:150px;
+	background-color:#A88462;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.footer_nav_icon{
+	padding: 30px;
+}
