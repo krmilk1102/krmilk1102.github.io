@@ -136,7 +136,7 @@ a{
 	width: 100%;
 }
 .foods_list{
-	display: flex;
+	display:flex;
 	justify-content: center;
 }
 .foods_title{
