@@ -132,9 +132,7 @@ a{
 /*---------------------
  foods
 ---------------------*/
-#foods{
-	width: 100%;
-}
+
 .foods-list{
 	display: flex;
 	justify-content: center;
